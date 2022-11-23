@@ -11,16 +11,23 @@ public class Main {
         String city = scanner.nextLine();
         System.out.println("Wprowadź swój wiek.");
         int age = scanner.nextInt();
-        boolean JestemWZwiazku = true;
         String zwiazek = scanner.nextLine();
+        boolean JestemWZwiazku;
+        System.out.println("Czy jesteś w związku?");
         if (zwiazek == "Tak") {
             JestemWZwiazku = true;
         } else {
             JestemWZwiazku = false;
         }
         System.out.println("Twój status związku: " + JestemWZwiazku);
-    }
-    public static int getInt() {
-        return new Scanner(System.in).nextInt();
+
+        System.out.println("Cześć, " +first_name);
+        System.out.println("Nazwisko: " +last_name);
+        System.out.println("Jesteś z " +city);
+        System.out.println("Masz "+age+" lat(a).");
+        System.out.println("Jesteś w związku: " +zwiazek);
+        System.out.println("Witaj na pokładzie klubu Testersi!");
+
+
     }
 }
